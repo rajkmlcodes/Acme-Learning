@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    background: hsl(239, 100%, 70%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img[alt="logo"]{
+    width: 40px;
+}
+
+
+.nav-search-box{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(179, 175, 255);
+    border-radius: 100px;
+    overflow: hidden;
+    padding: 6px 20px;
+}
+
+.nav-search-box input{
+    outline: 0;
+    border: 0;
+    padding: 0 10vw 0 5px;
+}
+
+img[alt="search-icon"]{
+    width: 20px;
+}
+
+
+.list{
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    margin: 0;
+}
+
+.list-items{
+    padding: 20px;
+}
+
+.list-items a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.push-right{
+    margin-left: auto;
+}
+
+/* header cover image */
+.header-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh; 
+}
+
+img[alt="header-cover-img"]{
+    width: 40%;
+}
+
+
+/* search bar */
+#search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(179, 175, 255);
+    border-radius: 30px;
+    width: 300px;
+    margin: 150px 40% 10px 40%;
+}
+
+
+section input{
+    outline: 0;
+    border: 0;
+    padding: 15px;
+}
+
+
+
+img[alt="search-icon"]{
+    width: 30px;
+}
+
+
+/* container and grid */
+.container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 100px;
+    justify-content: center;
+}
+
+.grid-item > img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.grid-item{
+    background: rgb(234, 233, 255);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+img[alt="grid-img"]{
+    transition: 1s ease-in-out;
+}
+
+img[alt="grid-img"]:hover{
+    transform: scale(1.1);
+}
+
+/* footer */
+footer{
+    background: rgb(48, 48, 49);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+    .list{
+        font-size: 11px;
+        padding: 0;
+    }
+
+
+    
+}
